@@ -19,6 +19,8 @@ Then run the main code:
 roslaunch P_code P_main.launch
 ```
 # The structure:
+![immagine](https://github.com/Piyasaade/Piyasaade-Assignment3-RT1/blob/main/RT1-Assignment3.jpg)  
+
 **First** P_main.launch will be launched containing the P_userinterface srcipt which is responsible first to ask the user to choose one of the choices listed before.
 Depending on the user's choice the functions used in the userinterface script will be run
 
@@ -31,4 +33,3 @@ client is used for this function and a timing is set in a way if the robot didn'
 In that case, the cmd_vel topic is the connection between the node and the script, in a way that if the velocity and the direction given from the user passing through the topic will not lead to a collision then the robot can drive safely, otherwise, this values will be changed by detcting the obstacles using the laser scan topic.
 
 **Fifth** if choice 4 is chosen, then the user chose to quit the program.
-![immagine](https://github.com/Piyasaade/Piyasaade-Assignment3-RT1/blob/main/RT1-Assignment3.jpg)  
