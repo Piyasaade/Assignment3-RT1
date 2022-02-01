@@ -11,8 +11,8 @@ If none of these choices have been chosen then the 4th choice will be to quit fr
 # Command used to run the program:
 from a linux shell we first launch the environment and the mapping nodes :
 ```bash
-$ sudo roscore
-$ sudo catkin_make
+roslaunch final_assignment simulation_gmapping.launch 
+roslaunch final_assignment move_base.launch
 ```
 
 
