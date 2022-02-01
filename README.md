@@ -14,5 +14,9 @@ from a linux shell we first launch the environment and the mapping nodes :
 roslaunch final_assignment simulation_gmapping.launch 
 roslaunch final_assignment move_base.launch
 ```
-
-
+Then run the main code:
+```bash
+roslaunch P_code P_main.launch
+```
+# The structure:
+![Flowchart-RT1-Assignment1 (1)](file:///home/pia/Downloads/RT1-Assignment3.drawio%20(1).png)
