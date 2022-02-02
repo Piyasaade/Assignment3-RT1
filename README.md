@@ -33,3 +33,8 @@ client is used for this function and a timing is set in a way if the robot didn'
 In that case, the cmd_vel topic is the connection between the node and the script, in a way that if the velocity and the direction given from the user passing through the topic will not lead to a collision then the robot can drive safely, otherwise, this values will be changed by detcting the obstacles using the laser scan topic.
 
 **Fifth** if choice 4 is chosen, then the user chose to quit the program.
+
+# Possible Improvement:
+
+
+
