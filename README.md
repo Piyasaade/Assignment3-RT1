@@ -50,11 +50,17 @@ A plugin is a chunk of code that is compiled as a shared library and inserted in
 
 **plugin types:**
 There are currently 6 types of plugins
+
 1-World
+
 2-Model
+
 3-Sensor
+
 4-System
+
 5-Visual
+
 6-GUI
 
 **Plugins available in gazebo_plugins**
