@@ -41,11 +41,14 @@ A plugin is a chunk of code that is compiled as a shared library and inserted in
 
 **Some of their functionalties:**
 1-let developers control almost any aspect of Gazebo
+
 2-are self-contained routines that are easily shared
+
 3-can be inserted and removed from a running system
 
 **YOU should ue it when :**
 1-you want to programmatically alter a simulation
+
 2-move models, respond to events, insert new models given a set of preconditions you want a fast interface to gazebo.
 
 **plugin types:**
