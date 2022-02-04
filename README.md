@@ -34,18 +34,18 @@ In that case, the cmd_vel topic is the connection between the node and the scrip
 
 **Fifth** if choice 4 is chosen, then the user chose to quit the program.
 
-# Possible Improvement:
+# Possible Improvements:
 
 Using Gazebo plugins with ROS,Gazebo plugins give your models greater functionality and can tie in ROS messages and service calls for sensor output and motor input.
 A plugin is a chunk of code that is compiled as a shared library and inserted into the simulation. The plugin has direct access to all the functionality of Gazebo.
-# Some of their functionalties:
+#Some of their functionalties:
 1-let developers control almost any aspect of Gazebo
 2-are self-contained routines that are easily shared
 3-can be inserted and removed from a running system
-# YOU should ue it when :
+#YOU should ue it when :
 1-you want to programmatically alter a simulation
 2-move models, respond to events, insert new models given a set of preconditions you want a fast interface to gazebo.
-# plugin types:
+#plugin types:
 There are currently 6 types of plugins
 1-World
 2-Model
@@ -53,6 +53,6 @@ There are currently 6 types of plugins
 4-System
 5-Visual
 6-GUI
-# Plugins available in gazebo_plugins
+#Plugins available in gazebo_plugins
 **camera****: provides ROS interface for simulating cameras such as wge100_camera by publishing the CameraInfo and Image ROS messages as described in sensor_msgs.
 
