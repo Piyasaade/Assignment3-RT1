@@ -58,8 +58,12 @@ There are currently 6 types of plugins
 6-GUI
 
 **Plugins available in gazebo_plugins**
+
 CAMERA: `provides ROS interface for simulating cameras such as wge100_camera by publishing the CameraInfo and Image ROS messages as described in sensor_msgs.
+
 MULTICAMERA: ynchronizes multiple camera's shutters such that they publish their images together. Typically used for stereo cameras, uses a very similar interface as the plain Camera plugin.
+
 GPU LASER: simulates laser range sensor by broadcasting LaserScan message as described in sensor_msgs.
+
 PLANAR MOVE PLUGIN: model plugin that allows arbitrary objects (for instance cubes, spheres and cylinders) to be moved along a horizontal plane using a geometry_msgs/Twist message. The plugin works by imparting a linear velocity (XY) and an angular velocity (Z) to the object every cycle.
 
