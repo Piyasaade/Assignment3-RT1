@@ -43,9 +43,11 @@ A plugin is a chunk of code that is compiled as a shared library and inserted in
 1-let developers control almost any aspect of Gazebo
 2-are self-contained routines that are easily shared
 3-can be inserted and removed from a running system
+
 **YOU should ue it when :**
 1-you want to programmatically alter a simulation
 2-move models, respond to events, insert new models given a set of preconditions you want a fast interface to gazebo.
+
 **plugin types:**
 There are currently 6 types of plugins
 1-World
@@ -54,6 +56,7 @@ There are currently 6 types of plugins
 4-System
 5-Visual
 6-GUI
+
 **Plugins available in gazebo_plugins**
 CAMERA: `provides ROS interface for simulating cameras such as wge100_camera by publishing the CameraInfo and Image ROS messages as described in sensor_msgs.
 MULTICAMERA: ynchronizes multiple camera's shutters such that they publish their images together. Typically used for stereo cameras, uses a very similar interface as the plain Camera plugin.
